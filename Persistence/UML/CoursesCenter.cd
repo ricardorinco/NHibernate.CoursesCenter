@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Persistence.POCO.Course">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAQgAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>POCO\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.POCO.CourseType">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>POCO\CourseType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.POCO.Instructor">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>POCO\Instructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.POCO.Report">
+    <Position X="12.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAABAAAiAQCACAAAAAAAAAAAAABAAAAAAAAQQA=</HashCode>
+      <FileName>POCO\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.POCO.Request">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>POCO\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.POCO.RequestDetail">
+    <Position X="10.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>POCO\RequestDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.POCO.Student">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABACAAAAAAAAAAAAQAAAAAAAAAAAAAABAEAAA=</HashCode>
+      <FileName>POCO\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.DAO.CourseTypeDAO">
+    <Position X="0.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIQAAAAAAAAAAAAAAAAAAAEAAAAAABAAEAAAAII=</HashCode>
+      <FileName>DAO\CourseTypeDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.DAO.CourseDAO">
+    <Position X="2.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAABAAAAAAAAAAAAAAAEAAAAAABAAEAAAAII=</HashCode>
+      <FileName>DAO\CourseDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.DAO.InstructorDAO">
+    <Position X="4.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAABAAEAAAAAI=</HashCode>
+      <FileName>DAO\InstructorDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.DAO.StudentDAO">
+    <Position X="6.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIQAAABAAAAAAAAAAAAAAAEAAAAAABAAEAAAAII=</HashCode>
+      <FileName>DAO\StudentDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.DAO.RequestDAO">
+    <Position X="8.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAIABAAEAAAAEI=</HashCode>
+      <FileName>DAO\RequestDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Persistence.DAO.RequestDetailDAO">
+    <Position X="10.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAEAAAAAABAAEAAAAAI=</HashCode>
+      <FileName>DAO\RequestDetailDAO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Mapeamento da classe: Course -->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Persistence.POCO"
+                   assembly="Persistence">
+  <class name="Course" table="Course">
+
+    <!-- Chave primária -->
+    <id name="Id" column="Id">
+      <generator class="identity" />
+    </id>
+
+    <!-- Coluna Identification -->
+    <property name="Identification">
+      <column name="Identification" sql-type="varchar" not-null="true" />
+    </property>
+
+    <!-- Coluna Price -->
+    <property name="Price">
+      <column name="Price" sql-type="money" not-null="true" />
+    </property>
+
+    <!-- Navegação de CourseType -->
+    <many-to-one name="CourseType" lazy="false">
+      <column name="CourseTypeId" sql-type="int" not-null="true" />
+    </many-to-one>
+
+    <!-- Navegação de Instructor -->
+    <many-to-one name="Instructor" lazy="false">
+      <column name="InstructorId" sql-type="int" not-null="true" />
+    </many-to-one>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Mapeamento da classe: Instructor -->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="Persistence.POCO"
+                   assembly="Persistence">
+  <class name="Instructor" table="Instructor">
+
+    <!-- Chave primária -->
+    <id name="Id" column="Id">
+      <generator class="identity" />
+    </id>
+
+    <!-- Coluna Identification -->
+    <property name="Identification">
+      <column name="Identification" sql-type="varchar" not-null="true" />
+    </property>
+
+    <!-- Navegação de Courses -->
+    <bag name="Courses" inverse="true">
+      <key column="InstructorId" />
+      <one-to-many class="Course" />
+    </bag>
+
+  </class>
+</hibernate-mapping>
