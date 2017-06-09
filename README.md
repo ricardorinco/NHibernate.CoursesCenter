@@ -1,4 +1,6 @@
-﻿# Abstract
+> **João 10:10** "O ladrão vem apenas para roubar, matar e destruir; eu vim para que tenham vida e a tenham plenamente."
+
+# Abstract
 This article intends with a software development compare two frameworks Object-Relational Mapping (ORM),
 [Hibernate] wrote in Java and it’s a ported version to .Net, [NHibernate]. These frameworks have the objective
 to reduce the complexity between software developed that use the object-oriented and require a relational
